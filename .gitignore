@@ -1,0 +1,45 @@
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider IDE specific files
+.idea/
+
+# Resharper files
+*.DotSettings.user
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Database files
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Exclude configuration files with sensitive data
+App.config
+Web.config
